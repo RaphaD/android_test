@@ -5,4 +5,11 @@
     <string name="s_height">Taille :</string>
     <string name="s_messageWeight">Entrez votre poids</string>
     <string name="s_messageHeight">Entrez votre taille</string>
+    <string name="s_choiceCm">Taille en cm</string>
+    <string name="s_choiceMe">Taille en m</string>
+    <string name="s_megaFunc">Méga fonction</string>
+    <string name="s_calculateBMI">Calculer IMC</string>
+    <string name="s_RAZ">RAZ</string>
+    <string name="s_resultStatic">Résultat :</string>
+    <string name="s_resultDynamic">Entrez les données nécessaires et appuyez sur "Calculer IMC"</string>
 </resources>

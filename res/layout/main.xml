@@ -5,23 +5,78 @@
               android:layout_height="fill_parent"
               >
 
-    <TextView android:layout_width="wrap_content"
+    <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:text="@string/s_weight"
               android:textColor="#FF0000"
+              android:textStyle="bold"
+              android:gravity="center"
             />
-    <EditText android:layout_width="fill_parent"
+    <EditText android:id="@+id/e_weight"
+              android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:hint="@string/s_messageWeight"
             />
-    <TextView android:layout_width="wrap_content"
+    <TextView android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:text="@string/s_height"
               android:textColor="#FF0000"
+              android:textStyle="bold"
+              android:gravity="center"
             />
-    <EditText android:layout_width="fill_parent"
+    <EditText android:id="@+id/e_height"
+              android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:hint="@string/s_messageHeight"
+            />
+    <RadioGroup android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+            >
+        <RadioButton android:id="@+id/e_cm"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:checked="true"
+                     android:text="@string/s_choiceCm"
+                     android:gravity="left"
+                />
+        <RadioButton android:id="@+id/e_m"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:checked="false"
+                     android:text="@string/s_choiceMe"
+                     android:gravity="right"
+                />
+    </RadioGroup>
+
+    <CheckBox android:id="@+id/e_megaFunc"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/s_megaFunc"
+            />
+
+    <Button android:id="@+id/e_buttonBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s_calculateBMI"
+            />
+
+    <Button android:id="@+id/e_buttonRAZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s_RAZ"
+            />
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/s_resultStatic"
+            />
+
+    <TextView android:id="@+id/e_result"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/s_resultDynamic"
             />
 </LinearLayout>
 
