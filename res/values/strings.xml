@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hello_Wrold</string>
+    <string name="s_weight">Poids :</string>
+    <string name="s_height">Taille :</string>
+    <string name="s_messageWeight">Entrez votre poids</string>
+    <string name="s_messageHeight">Entrez votre taille</string>
 </resources>

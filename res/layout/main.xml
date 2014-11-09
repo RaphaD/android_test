@@ -3,11 +3,25 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+              >
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/s_weight"
+              android:textColor="#FF0000"
+            />
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/s_messageWeight"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/s_height"
+              android:textColor="#FF0000"
+            />
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/s_messageHeight"
             />
 </LinearLayout>
 
