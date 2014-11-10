@@ -20,6 +20,7 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
         m_result = (TextView) findViewById(R.id.e_result);
         m_weightEntry = (EditText) findViewById(R.id.e_weight);
@@ -42,8 +43,6 @@ public class MyActivity extends Activity {
                 reset();
             }
         });
-
-        setContentView(R.layout.main);
     }
 
     private void calculateBMIScore(){
