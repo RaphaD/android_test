@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello_Wrold</string>
+    <string name="app_name">BMI calculator</string>
     <string name="s_weight">Poids :</string>
     <string name="s_height">Taille :</string>
     <string name="s_messageWeight">Entrez votre poids</string>
@@ -12,4 +12,6 @@
     <string name="s_RAZ">RAZ</string>
     <string name="s_resultStatic">Résultat :</string>
     <string name="s_resultDynamic">Entrez les données nécessaires et appuyez sur "Calculer IMC"</string>
+    <string name="s_resWithoutCheck">"Votre IMC est de : "</string>
+    <string name="s_resWithCheck">"Insérez une connerie aléatoire en fonction de l'IMC"</string>
 </resources>
