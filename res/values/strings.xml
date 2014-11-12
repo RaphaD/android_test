@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BMI calculator</string>
-    <string name="s_weight">Poids :</string>
-    <string name="s_height">Taille :</string>
-    <string name="s_messageWeight">Entrez votre poids</string>
-    <string name="s_messageHeight">Entrez votre taille</string>
-    <string name="s_choiceCm">Taille en cm</string>
-    <string name="s_choiceMe">Taille en m</string>
-    <string name="s_megaFunc">Méga fonction</string>
-    <string name="s_calculateBMI">Calculer IMC</string>
-    <string name="s_RAZ">RAZ</string>
-    <string name="s_resultStatic">Résultat :</string>
-    <string name="s_resultDynamic">Entrez les données nécessaires et appuyez sur "Calculer IMC"</string>
-    <string name="s_resWithoutCheck">"Votre IMC est de : "</string>
-    <string name="s_resWithCheck">"Insérez une connerie aléatoire en fonction de l'IMC"</string>
+    <string name="app_name">Calculator</string>
+    <string name="s_answer">0</string>
+    <string name="s_0">0</string>
+    <string name="s_1">1</string>
+    <string name="s_2">2</string>
+    <string name="s_3">3</string>
+    <string name="s_4">4</string>
+    <string name="s_5">5</string>
+    <string name="s_6">6</string>
+    <string name="s_7">7</string>
+    <string name="s_8">8</string>
+    <string name="s_9">9</string>
+    <string name="s_plus">+</string>
+    <string name="s_min">-</string>
+    <string name="s_div">*</string>
+    <string name="s_mul">/</string>
+    <string name="s_clear">C</string>
+    <string name="s_eq">=</string>
 </resources>
